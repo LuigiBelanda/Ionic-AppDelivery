@@ -1,20 +1,103 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <!-- marcador do slide habilitado e configs na estão no slideConfig (arquivo home.page.ts)-->
+  <ion-slides pager="true" [options]="slideConfig" class="background_slides"> 
+  
+        <!-- primeiro slide -->
+        <ion-slide class="img_slide1">
+          <ion-grid>  
+            <ion-row>
+              <ion-col> 
+                <ion-label class="titulo_slide1"> Uau, você por aqui? </ion-label>
+                <ion-icon class="icon_heart_slide1" name="heart"></ion-icon>
+                <br>
+                <ion-label class="titulo2_slide1"> Que bom que você baixou nosso aplicativo </ion-label>
+                <br>
+                <br>
+                <ion-label class="titulo2_slide1"> Não iremos te decepcionar !!!</ion-label>
+                <br>
+                <img src="assets/Live collaboration.gif">
+                <br>
+                <br>
+              </ion-col>
+            </ion-row>
+
+            <ion-row> 
+              <ion-col> 
+                <ion-label class="subtitulo_slide1"> Vamos lá então, vamos ver um pouco sobre nós </ion-label> 
+                <br>
+                <br>
+                <ion-icon class="icon_arrow_slide1" name="arrow-forward-circle-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-slide>
+        <!-- primeiro slide -->
+
+        <!-- segundo slide -->
+        <ion-slide class="img_slide1">
+          <ion-grid>  
+            <ion-row> 
+              <ion-col> 
+                <ion-label class="titulo_slide1"> Quem nós somos? </ion-label>
+                <br>
+                <ion-label class="titulo2_slide1"> Nós somos uma empresa que <br> preza pelo melhor.</ion-label>
+                <br>
+                <br>
+                <ion-label class="titulo2_slide1"> Começando com uma entrega rápida e de qualidade</ion-label>
+                <br>
+                <img src="assets/Take Away.gif">
+                <br>
+                <br>
+              </ion-col>
+            </ion-row>
+            
+            <ion-row> 
+              <ion-col> 
+                <ion-label class="subtitulo_slide1"> Mas vamos nessa, falta pouco para acabar </ion-label> 
+                <br>
+                <br>
+                <ion-icon class="icon_arrow_slide1" name="arrow-forward-circle-outline"></ion-icon>
+                <br>
+                <br>
+              </ion-col>
+            </ion-row>
+          </ion-grid>  
+        </ion-slide>
+        <!-- segundo slide -->
+
+        <!-- terceiro slide -->
+        <ion-slide class="img_slide1">
+          <ion-grid>  
+            <ion-row> 
+              <ion-col> 
+                <ion-label class="titulo_slide1"> O que mais prezamos? </ion-label>
+                <br>
+                <ion-label class="titulo2_slide1"> Prezamos é claro por uma comida boa</ion-label>
+                <br>
+                <br>
+                <ion-label class="titulo2_slide1"> Selecionamos todos os alimentos fazendo <br> assim nossas pizzas as melhores </ion-label>
+                <br>
+                <img src="assets/Cooking.gif">
+                <br>
+              </ion-col>
+            </ion-row>
+            
+            <ion-row> 
+              <ion-col> 
+                <ion-label class="subtitulo_slide1"> Bora pedir uma pizza agora? </ion-label> 
+                <br>
+                <br>
+                <center>
+                <ion-button class="button_logcad" size="default" expand="block" fill="solid" color="light"> Cadastrar-se / Logar </ion-button>
+                </center>
+                <br>
+              </ion-col>
+            </ion-row>
+          </ion-grid>  
+        </ion-slide>
+        <!-- terceiro slide -->
+
+  </ion-slides>
+
 </ion-content>
