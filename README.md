@@ -17,6 +17,8 @@
 
 :small_blue_diamond: [Desenvolvedores/Contribuintes](#desenvolvedorescontribuintes-octocat)
 
+:small_blue_diamond: [Ferramentas utilizadas no projeto](#ferramentas-utilizadas-no-projeto-)
+
 :small_blue_diamond: [Licença](#licença)
 
 ## Descrição do projeto 📃
@@ -72,6 +74,12 @@ Apps de delivery vem se tornando a cada dia mais utilizados, algo prático para 
 
 [<img class="avatar rounded-2 avatar-user" src="https://avatars3.githubusercontent.com/u/52254708?s=400&amp;u=3ba8a8520f58d8c655e992e18d279a632aad1864&amp;v=4" width="200" height="200" alt="@LuigiBelanda"> <br> <sub> Luigi Belanda (Desenvolvedor do projeto) </sub>](https://github.com/LuigiBelanda) | [<img style="height:auto;" alt="Avatar" width="200" height="200" class="avatar avatar-user width-full border bg-white" src="https://avatars0.githubusercontent.com/u/4193772?s=460&amp;v=4"> <br> <sub> Leandro Spanghero Fera (Mentor) </sub>](https://github.com/leandrospan) | 
 | :---: | :---: |
+
+## Ferramentas utilizadas no projeto 🛠
+
+- [Canva](https://www.canva.com/) - Usei para criação de gifs e edição de imagens que estão no projeto;
+- [Stories by freepik](https://stories.freepik.com/food/rafiki) - Site onde peguei as algumas ilustrações;
+- [Visual Studio Code](https://code.visualstudio.com/) - Utilizei para criação/edicação dos códigos.
 
 ## Licença 
 
