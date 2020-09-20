@@ -79,7 +79,7 @@ Apps de delivery vem se tornando a cada dia mais utilizados, algo prático para 
 
 - [Canva](https://www.canva.com/) - Usei para criação de gifs e edição de imagens que estão no projeto;
 - [Stories by freepik](https://stories.freepik.com/food/rafiki) - Site onde peguei as algumas ilustrações;
-- [Visual Studio Code](https://code.visualstudio.com/) - Utilizei para criação/edicação dos códigos.
+- [Visual Studio Code](https://code.visualstudio.com/) - Utilizei para criação/edição dos códigos.
 
 ## Licença 
 
