@@ -27,11 +27,6 @@
   Este projeto tem como objetivo criar principalmente o front-end de um app de delivery, desde as telas iniciais, tela de login/cadastro, menu, etc.
 </p> 
 
-## Layout do app ✍
-
-- Slides de apresentação <br>
-<img src="https://github.com/LuigiBelanda/Ionic-AppDelivery/blob/master/Layout%20(imagens)/slide%201.png"> <img src="https://github.com/LuigiBelanda/Ionic-AppDelivery/blob/master/Layout%20(imagens)/slide%202.png"> <img src="https://github.com/LuigiBelanda/Ionic-AppDelivery/blob/master/Layout%20(imagens)/slide%203.png">
-
 ## Pré-requisitos 📝
 
 Antes de tudo você deve instalar algumas:
