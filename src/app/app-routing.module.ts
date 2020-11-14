@@ -20,6 +20,10 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   /*{
+    path: 'detalheprod',
+    loadChildren: () => import('./detalheprod/detalheprod.module').then( m => m.DetalheprodPageModule)
+  },
+  {
     path: 'principal',
     loadChildren: () => import('./principal/principal.module').then( m => m.PrincipalPageModule)
   },*/
