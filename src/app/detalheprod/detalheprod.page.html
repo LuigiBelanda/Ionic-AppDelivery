@@ -41,4 +41,54 @@
       <ion-label> G </ion-label>
     </ion-fab-button>
   </ion-fab>
+
+  <div class="adicionar">
+    <ion-label> Adicionar ingredientes </ion-label>
+  </div>
+  
+  <ion-slides [options]="slideConfig">
+    <ion-slide>
+      <ion-card style="background-color: white;">
+        <img class="tamanho" src="assets/queijo.png">
+        <ion-card-content>
+          <ion-label> Queijo </ion-label>
+          <ion-label> R$ 2.00 </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card style="background-color: white;">
+        <img class="tamanho" src="assets/bacon.png">
+        <ion-card-content>
+          <ion-label> Bacon </ion-label>
+          <ion-label> R$ 3.50 </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+      
+    <ion-slide>
+      <ion-card style="background-color: white;">
+        <img class="tamanho" src="assets/cebola.png">
+        <ion-card-content>
+          <ion-label> Cebola </ion-label>
+          <ion-label> R$ 1.00 </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card style="background-color: white;">
+        <img class="tamanho" src="assets/tomate.png">
+        <ion-card-content>
+          <ion-label> Tomate </ion-label>
+          <ion-label> R$ 2.50 </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <ion-button class="comprar" shape="round" expand="block">
+    <ion-label> Preço R$ 32.50 </ion-label>
+    <ion-icon name="rocket-outline"></ion-icon>
+  </ion-button>
 </ion-content>

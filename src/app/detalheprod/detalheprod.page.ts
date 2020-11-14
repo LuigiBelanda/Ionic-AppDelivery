@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetalheprodPage implements OnInit {
 
+  slideConfig = {
+    initialSlide: 0,
+    slidesPerView: 3.3,
+    speed: 400, 
+  }
+
   constructor() { }
 
   ngOnInit() {
